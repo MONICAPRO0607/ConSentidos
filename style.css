@@ -1,0 +1,392 @@
+.primary-header {
+	color: white;
+}
+.primary-header-simple {
+  background: brand-primary;
+}
+
+.header-bg {
+ background: brand-primary;  
+}
+
+
+.nav-top {
+  .list-inline-item {
+    a, span {
+      display: block;
+      padding-left: 19px;
+      padding-right: 1rem;
+      background-repeat: no-repeat;
+      background-position: center left;
+    }
+    .phone {
+      background-image: url('./assets/telef.jpg');
+    }
+    .contact {
+      padding-left: 27px;
+      background-image: url('./assets/sobrecontacto.png');
+    }
+    .shipping {
+      padding-left: 40px;
+      background-image: url('./assets/carrito.png');
+    }
+  }
+}
+
+.col.justify-content-between.search{
+	
+	margin-left: 54px;
+}
+
+element.style {
+}
+.header-bg {
+    background: #86dbe6;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 0;
+}
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.primary-header {
+    color: #fff;
+}
+body {
+    color: #606060;
+    -webkit-backface-visibility: hidden;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #212529;
+    text-align: left;
+    background-color: #f0f5f1;
+}
+
+.form-search {
+  input[type='text'] {
+//     max-width: 256px;
+    width: 100%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .btn-search {
+    min-width: auto;
+    background-image: url(../images/barra_busqueda.png);
+    height: calc(2.25rem + 2px);
+//     width: 16px;
+	width: 15%;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    background-color: #679420;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px;
+    &:hover {
+        background-color: darken(#86dbe6,10%);
+    }
+  }
+  //Artdinamica
+  .form-group{
+		width: 85%;
+		@media (max-width: 785px) {
+      		width: 80%;
+    	}
+  }   
+}
+
+.ui-autocomplete{
+    width: 580px !important;
+    z-index: 999999 !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    max-height: 721px !important;}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: none !important;
+    background: #dadada url("images/ui-bg_glass_65_ffffff_1x400.png") 50% 50% repeat-x !important;
+    font-weight: normal;
+    color: #212121;
+}
+.ui-menu .ui-menu-item-wrapper {
+    position: relative;
+    padding: 10px 1em 10px .4em !important;
+}
+.ui-menu .ui-state-active {
+    margin: 0 !important;
+}
+
+.ui-menu img {
+    margin-right: 20px;
+    float: left;
+    margin-left: 10px;
+}
+.ui-menu .ui-menu-item-wrapper {
+    position: relative;
+    padding: 5px 0 !important;
+    height: auto;
+    width: 100%;
+    float: left;
+}
+.ui-widget-content a {
+    // color: #222222;
+}
+.ui-menu .ui-menu-item {
+    margin: 0;
+    float: left;
+    cursor: pointer;
+    width: 575px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+}
+.nombre-busc{
+    // font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    // color: #606060;
+    margin-bottom: 5px;
+}
+
+.textobusc {
+    margin-top: 40px;
+    float: left;
+    padding: 0px;
+    font-size: $font-size-base;
+    font-family: $font-family-sans-serif;
+    color: $text-color;
+    width: 77%;
+    p {
+      // font-weight: bold;
+    }
+}
+
+* html .ui-autocomplete {
+    height: 720px;
+}
+
+.ui-menu .ui-menu-item {
+    padding: 0;
+}
+.ui-menu .ui-menu-item.header-auto {
+    padding: 5px 10px;
+}
+
+
+
+.ui-menu img {
+    margin-right: 10px;
+    float: left;
+}
+#project-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+#project-icon {
+    float: left;
+    height: 225px;
+    width: 225px;
+}
+.tp_hd2 input[type="text"] .ui-autocomplete-loading {
+    background-image: url(../img/comunes_v2/search_sec_txt.gif) !important;
+    background-repeat: no-repeat;
+
+}
+.ui-autocomplete-loading {
+    background-image: url(../img/comunes_v2/search_sec_txt.gif) !important;
+    background-repeat: no-repeat;
+
+}
+.header-auto{ border-bottom: 1px dashed #78a8e8;font-size: 17px;
+    font-family: 'PT Sans', sans-serif;padding: 10px
+}
+
+//end ajax search
+
+.col-cart {
+	background: $grey-bg;
+	min-height: 76vh;
+}
+.col-cart, .thanks-cart {
+	.products {
+		border-bottom: 1px solid #b7b7b7;
+		li {
+			border-top: 1px solid #b7b7b7;
+		}
+	}
+	.total {
+		border-top: 1px solid #b7b7b7;
+		border-bottom: 1px solid #b7b7b7;
+	}
+}
+
+.btn-cart {
+  min-width: auto;
+  background-image: url(../images/barra_carrito.png);
+  width: 135px;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  background-color: ##86dbe6;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 40px;
+  &:hover {
+    background-color: darken(#86dbe6,10%);
+  }
+}
+
+.bg-primary {
+  .navbar-nav .nav-link {
+    color: $white;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    font-family: $headings-font-family;
+    @media (max-width: 1040px) {
+      font-size: 0.9rem;
+      padding: 0.7rem;
+    }
+    &:hover {
+      color: $white;
+      background-color: $purple-lt;
+    }
+    &.bg-pink {
+      background-color: #fe4164;
+    }
+    &.bg-blue {
+      background-color: #158fe1;
+    }
+    &.bg-aquamarine {
+      background-color: #2a7d85;
+    }
+  }
+  .navbar-nav .dropdown-menu{
+	  @media (max-width: 1040px){
+		  font-size: 0.9rem;
+	  }
+  }
+}
+
+
+.btco-hover-menu .collapse ul ul>li:hover>a, .navbar .show .dropdown-menu>li>a:focus, .navbar .show .dropdown-menu>li>a:hover {
+  color: $white;
+  background-color: $purple-lt;
+}
+
+
+
+
+#cookie-msg {
+    // width:100%;
+    margin-right: -15px;
+    margin-left: -15px;
+    color:#fff;
+    text-align:left;
+    background:#aaaaaa;
+    z-index:9999;
+    // height: 60px;
+    display:none
+}
+#cookie-msg-inner {
+    // width:980px;
+    margin:0 auto;
+    overflow:hidden;
+    line-height: 19px;
+}
+#cookie-msg-inner span {
+    float:left;
+    display:inline;
+}
+#cookie-msg-inner p {
+    margin: 1% 4%;
+    // width: 930px;
+}
+#cookie-msg-inner a {
+    color: white;
+    text-decoration:underline
+}
+#cookieClose {
+    cursor: pointer;
+    float: right;
+    margin-top: -40px;
+    margin-right: 15px;
+}
+
+element.style {
+}
+.header-bg {
+    background: #86dbe6;
+}
+.container.header-bg {
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 0;
+}
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.primary-header {
+    color: #fff;
+}
+body {
+    color: #606060;
+    -webkit-backface-visibility: hidden;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #212529;
+    text-align: left;
+    background-color: #f0f5f1;
+}
+
+
+
